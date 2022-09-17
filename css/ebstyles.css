@@ -77,11 +77,6 @@
     padding: 15px;
   }
   
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-    
   .badge {
     font-size: 0.8em;
     border-radius: 0.3em;
@@ -105,6 +100,10 @@
     background-color: #B23A44;
   }
 
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
 
   @media only screen and (max-width: 540px) {
     /* For tablets: */
