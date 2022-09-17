@@ -56,6 +56,10 @@
     background-color: #0099cc;
   }
   
+  .link-conferencia{
+    font-weight: bold;
+  }
+
   .aside {
     background-color: #33b5e5;
     padding: 15px;
@@ -78,6 +82,30 @@
     width: 100%;
   }
     
+  .badge {
+    font-size: 0.8em;
+    border-radius: 0.3em;
+    padding: 0.3em 0.5em;
+    margin: 1em auto 1em auto;
+    font-weight: bold;
+  } 
+  .bg-javascript {
+    background-color: #FFC900;
+  }
+  .bg-react {
+    color: #fff;
+    background-color: #04AA6D;
+  }
+  .bg-negocios {
+    color: #fff;
+    background-color: #687379;
+  }
+  .bg-startups {
+    color: #fff;
+    background-color: #B23A44;
+  }
+
+
   @media only screen and (max-width: 540px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -227,20 +255,6 @@
       margin: 2em;
     }
 
-    .badge {
-      font-size: 0.8em;
-      border-radius: 0.3em;
-      padding: 0.3em 0.5em;
-      margin: 1em auto 1em auto;
-      font-weight: bold;
-    } 
-    .bg-primary {
-      background-color: #FFC900;
-    }
-    .bg-secondary {
-      color: #fff;
-      background-color: #04AA6D;
-    }
     .orador-texto h3{
       font-size: 1.3em;
       margin: 0.3em 0 0.8em 0;
