@@ -20,8 +20,6 @@
     font-weight: bold;
   }
 
-
-  
   .header {
     background-color: #353A40;
     color: #ffffff;
@@ -77,29 +75,6 @@
     padding: 15px;
   }
   
-  .badge {
-    font-size: 0.8em;
-    border-radius: 0.3em;
-    padding: 0.3em 0.5em;
-    margin: 1em auto 1em auto;
-    font-weight: bold;
-  } 
-  .bg-javascript {
-    background-color: #FFC900;
-  }
-  .bg-react {
-    color: #fff;
-    background-color: #04AA6D;
-  }
-  .bg-negocios {
-    color: #fff;
-    background-color: #687379;
-  }
-  .bg-startups {
-    color: #fff;
-    background-color: #B23A44;
-  }
-
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
@@ -262,6 +237,30 @@
     .orador-texto p{
       font-size: 0.9em;
     }
+
+    .badge {
+      font-size: 0.8em;
+      border-radius: 0.3em;
+      padding: 0.3em 0.5em;
+      margin: 1em auto 1em auto;
+      font-weight: bold;
+    } 
+    .bg-javascript {
+      background-color: #FFC900;
+    }
+    .bg-react {
+      color: #fff;
+      background-color: #04AA6D;
+    }
+    .bg-negocios {
+      color: #fff;
+      background-color: #687379;
+    }
+    .bg-startups {
+      color: #fff;
+      background-color: #B23A44;
+    }
+
   }
 
   @media only screen and (min-width: 720px) {
