@@ -19,6 +19,8 @@
     color:#28A744 !important;
     font-weight: bold;
   }
+
+
   
   .header {
     background-color: #353A40;
@@ -94,7 +96,7 @@
     .header {
         position:sticky;
         height: 4em;
-    
+        background-color: #353A40 !important;
     }
     .logo h1{
       float: left;
@@ -116,11 +118,11 @@
     }
 
     .logo img {
-        max-width: 60%;
+        max-width: 55%;
         margin: auto;
-    }
-
-    .menu a {
+      }
+      
+      .menu a {
       font-size: 0.8em;
       padding: 5px;
       margin-bottom: 0;
@@ -130,21 +132,123 @@
       text-align: center;
     }
     
-    .menu li:hover {
+    .menu a:hover {
       background-color: #4a4b4d;
     }
-
-    .contenedor-texto {
-        background-image: url('../img/ba1.jpg') !important;
-        background-color: #353A40;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        color: #fff;
-        font-size: 0.8em;
+    .verde:hover {
+      color:#FFC900 !important;
     }
 
+    .contenedor-imagen {
+      position: relative;
+      background-color: #353A40;
+    }
+    
+    .contenedor-imagen:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.3;
+      background-image: url('../img/ba1.jpg');
+      background-repeat: no-repeat;
+      background-position: 100% 0;
+      background-size: cover;
+    }
+    
+    .contenedor-texto {
+      position: relative;
+      color: #fff;
+      padding: 1.5em;
+      font-size: 0.8em;
+      text-align: center;
+    }
+    .contenedor-texto h1 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .boton{
+      border-radius: 0.5em;
+      padding: 0.5em 0 0.5em 0;
+      width: 40%;
+      margin: 1em auto 1em auto;
+    }
+    .bt-transparente {
+      border: 0.1em solid #fff;
+    }
+    .bt-transparente:hover {
+      background-color: #e0e0e0af;
+      font-weight: bold;
+      color: #181818;
+    }
+    .bt-verde {
+      background-color: #28A744;
+      margin-bottom: 0.5em;
+    }
+    .bt-verde:hover {
+      background-color: #FFC900;
+      color: #636363;
+      font-weight: bold;
+    }
+
+    .conoce {
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 0.7em;
+      margin-top: 0.5em;
+    }
+    .oradores {
+      display: block;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .contenedor-orador{
+      width: 70%;
+      margin: 1em auto;
+      
+    }
+
+    .orador-imagen img{
+      border-top-left-radius: 0.3em;
+      border-top-right-radius: 0.3em;
+    }
+
+    .orador-abajo {
+      border: #4c4c4e 1px solid;
+      border-bottom-left-radius: 0.3em;
+      border-bottom-right-radius: 0.3em;
+    }
+    .orador-texto {
+      margin: 2em;
+    }
+
+    .badge {
+      font-size: 0.8em;
+      border-radius: 0.3em;
+      padding: 0.3em 0.5em;
+      margin: 1em auto 1em auto;
+      font-weight: bold;
+    } 
+    .bg-primary {
+      background-color: #FFC900;
+    }
+    .bg-secondary {
+      color: #fff;
+      background-color: #04AA6D;
+    }
+    .orador-texto h3{
+      font-size: 1.3em;
+      margin: 0.3em 0 0.8em 0;
+      font-weight: bold;
+    }
+    .orador-texto p{
+      font-size: 0.9em;
+    }
   }
 
   @media only screen and (min-width: 720px) {
