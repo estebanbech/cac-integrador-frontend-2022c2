@@ -327,7 +327,25 @@
     #form-orador input:last-child{
       background-color: #96C93E;
     }
-    
+
+    .nav-footer{
+      text-align: center;
+      font-size: 0.8em;
+      color: #fff;
+      background-image: linear-gradient(to right, #1C3643 , #1E5371);
+      padding: 2em 0;
+    }
+
+    .nav-footer a {
+      padding: 5px;
+      margin-bottom: 0;
+    }
+    .nav-footer a:hover {
+      color:#33b5e5;
+      padding: 5px;
+      margin-bottom: 0;
+      background-image: linear-gradient(to right, #1E5371, #1C3643);
+    }
   }
 
   @media only screen and (min-width: 720px) {
