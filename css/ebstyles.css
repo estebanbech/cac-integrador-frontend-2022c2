@@ -261,6 +261,39 @@
       background-color: #B23A44;
     }
 
+    .honolulu-imagen{
+      margin: auto;
+    }
+    .honolulu-texto{
+      background-color: #353A40;
+    }
+    .honolulu-texto h3{
+      color: #fff;
+      font-weight: bold;
+      padding: 2em 0 0 3em;
+    }
+    .honolulu-texto p{
+      font-size: 0.9em;
+      text-align: justify;
+      color: #fff;
+      padding: 2em 3em;
+    }
+    .bt-conoce-mas{
+      display: block;
+      font-size: 0.9em;
+      text-align: center;
+      margin: 0 3em 2em 3em;
+      width: 25%;
+      color: #fff;
+      border: #fff 1px solid;
+    }
+
+    .contenedor-formulario{
+      margin:1.5em 2em;
+    }
+    .contenedor-formulario p{
+      font-size: 0.9em;
+    }
   }
 
   @media only screen and (min-width: 720px) {
