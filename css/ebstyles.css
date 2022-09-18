@@ -294,6 +294,28 @@
     .contenedor-formulario p{
       font-size: 0.9em;
     }
+
+    #form-orador {
+      margin-top: 1em;
+    }
+    #form-orador input, textarea{
+      width: 100%;
+      border: #868789 1px solid;
+      border-radius: 0.3em;
+      padding: 0.5em;
+      margin-bottom: 0.7em;
+    }
+    #form-orador input:hover, textarea:hover{
+      box-shadow: .3em .3em .9em .3em #AFAFAF;
+    }
+
+    #form-orador input:focus, textarea:focus{
+      border-color: #868789 !important;
+      box-shadow: inset 0 0 .2em .2em rgb(220, 222, 121);
+    }
+    #form-orador input:last-child{
+      background-color: #96C93E;
+    }
   }
 
   @media only screen and (min-width: 720px) {
