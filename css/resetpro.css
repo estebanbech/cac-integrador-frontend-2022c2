@@ -12,9 +12,14 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --color-primario  : #181818;
+  --color-primario: #181818;
   --color-secundario: #f0f0f0;
-
+  --color-blanco: #ffffff;
+  --color-gris: #353A40;
+  --color-gris-claro: #4c5458;
+  --color-amarillo: #FFC900;
+  --color-verde: #28A744;
+  --color-rojo: #B23A44;
 
   /* Tipografía */
   --tipo-principal  : 'Open Sans', Helvetica, Arial, sans-serif;
