@@ -87,6 +87,17 @@
     background-color: red;
 }
 
+.border-azul {
+  border-color: #1888FF !important;
+}
+
+.border-verde {
+  border-color: #31AEC2 !important;
+}
+
+.border-amarillo {
+  border-color: #F6C32A !important;
+}
 
 @media screen and (min-width: 100px) and (max-width: 290px) { 
 
