@@ -99,6 +99,17 @@
   border-color: #F6C32A !important;
 }
 
+.selectVer {
+  -webkit-appearance: auto !important; 
+  -moz-appearance: auto !important; 
+  appearance: button !important;
+}
+
+.bg-info {
+  background-color: #CCE5FF !important;
+  color: #003F83 !important;
+}
+
 @media screen and (min-width: 100px) and (max-width: 290px) { 
 
   .position-absolute {
