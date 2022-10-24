@@ -44,7 +44,7 @@ function verificarEleccion(x){
     campoError = document.getElementById(campoError);
     if(x.value == "" || x.value == 0 || x.value < 0){
         campoError.style.color = "red";
-        campoError.style.fontSize = "0.9em";
+        campoError.style.fontSize = "0.8em";
         campoError.style.fontWeight = "bold";
         campoError.innerHTML = "Es necesario que complete este campo";
     } else { 
