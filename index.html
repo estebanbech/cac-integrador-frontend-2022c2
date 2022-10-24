@@ -281,7 +281,7 @@
                 <p class="text-center text-uppercase mt-0 pt-0 h2">
                   Valor de Ticket $ 200
                 </p>
-                <form>
+                <form id="formularioTickets">
                   <div class="row mb-3">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-2">
                       <input
@@ -290,7 +290,9 @@
                         placeholder="Nombre"
                         name="name"
                         id="name"
+                        required
                       />
+                      <p id="nameError"></p>
                     </div>
                     <div class="ccol-xl-6 col-lg-6 col-md-6 col-sm-12 mb-2">
                       <input
@@ -299,7 +301,9 @@
                         placeholder="Apellido"
                         name="lastname"
                         id="lastname"
+                        required
                       />
+                      <p id="lastnameError"></p>
                     </div>
                     <div class="col-12 mt-2 mb-2">
                       <input
@@ -308,25 +312,31 @@
                         placeholder="Correo"
                         name="email"
                         id="email"
+                        required
                       />
+                      <p id="emailError"></p>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-2 mt-2">
                       <label for="cantidad" class="text-start mb-2">Cantidad</label>
                       <input
                         type="number"
                         class="form-control gris-claro"
-                        placeholder="Cantidad"
+                        placeholder="cantidad"
                         name="quantity"
                         id="quantity"
+                        required
                       />
+                      <p id="quantityError"></p>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-2 mt-2">
                       <label for="category" class="text-start mb-2">Categoría</label>
                       <select id="category" name="category" class="form-control gris-claro selectVer">
+                        <option value="">Seleccione una opción</option>
                         <option value="1">Estudiante</option>
                         <option value="2">Trainee</option>
                         <option value="3">Junior</option>
                       </select>
+                      <p id="categoryError"></p>
                     </div>
                     <div class="col-12 mt-2">
                       <p class="form-control text-start ps-5 bg-info py-3">
@@ -334,12 +344,12 @@
                       </p>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-2">
-                      <button type="button" class="btn verde-claro col-12 py-2" onclick="alert('Borrar Formulario')">
+                      <button type="button" class="btn verde-claro col-12 py-2" id="borrar">
                         Borrar
                       </button>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                      <button type="button" class="btn verde-claro col-12 py-2" onclick="alert('Mostrar Resumen')">
+                      <button type="button" class="btn verde-claro col-12 py-2" id="resumen">
                         Resumen
                       </button>
                     </div>
@@ -384,6 +394,7 @@
       crossorigin="anonymous"
       >
     </script>
+
     <script src="js/ebjs.js"></script>
   </body>
 </html>
